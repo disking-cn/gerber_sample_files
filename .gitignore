@@ -4,12 +4,22 @@
 
 /.vs
 /.git
-/.codebuddy
-/.cursor
-/.trae
-/.opencode
-/.cludecode
-/.obsidian
+.codebuddy/
+.cursor/
+.trae/
+.opencode/
+.cludecode
+.obsidian
+.openclaw/
+.claude/
+.codex/
+.qoder/
+.hermes/
+.zed/
+dataport/
+
+geoms/
+gerbers/
 
 *.cpp
 *.h
@@ -23,4 +33,5 @@
 *.pptx
 
 *.dif
-
+*.gbr
+*.dll

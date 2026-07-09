@@ -3,11 +3,6 @@
 This is a GitHub project for sharing GERBER files. These GERBER files are provided for technical demonstration and educational purposes only and do not contain any customer proprietary information.
 All files are generic test files and do not involve any actual products or commercial designs. These files may only be used for research purposes and not for commercial use. Users assume all legal responsibility for any issues that may arise.
 
-## Documentation
-
-- **[中文文档](README-CN.md)** (Chinese documentation)
-- **English documentation** (current file)
-
 ## File Description
 
 This repository contains 64 sets of GERBER files and their corresponding preview images.
@@ -107,7 +102,9 @@ You can download files in the following ways:
 1. **Download individual files**: Click the links in the table above to download specific files
 2. **Download the entire repository**: Use Git to clone this repository
    ```bash
-   git clone https://gitee.com/micoou/gerber_sample_files.git
+   git clone https://gitee.com/disking-cn/gerber_sample_files
+   git clone https://github.com/disking-cn/gerber-sample-files
+
    ```
 
 3. **Download ZIP package**: Click the "Code" button on the GitHub page and select "Download ZIP"

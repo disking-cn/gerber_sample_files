@@ -12,6 +12,8 @@
 .qoder/
 .hermes/
 .zed/
+.vscode/
+.drafts/
 
 dataport/
 geoms/

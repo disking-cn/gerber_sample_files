@@ -1,9 +1,5 @@
-﻿################################################################################
-# 此 .gitignore 文件已由 Microsoft(R) Visual Studio 自动创建。
-################################################################################
-
-/.vs
-/.git
+﻿.vs/
+.git/
 .codebuddy/
 .cursor/
 .trae/
@@ -16,10 +12,13 @@
 .qoder/
 .hermes/
 .zed/
-dataport/
 
+dataport/
 geoms/
 gerbers/
+
+!files/*.zip
+!images/*.png
 
 *.cpp
 *.h
@@ -32,6 +31,12 @@ gerbers/
 *.docx
 *.pptx
 
+*.exe
+*.dll
+
 *.dif
 *.gbr
 *.dll
+*.rar
+*.zip
+*.png

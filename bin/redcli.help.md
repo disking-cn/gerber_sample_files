@@ -1,9 +1,9 @@
 ﻿---
 title: redcli Usage Guide
 created: 2026-07-24
-author: AI-assisted
+author: author
 last_updated: 2026-07-24
-updated_by: AI-assisted
+updated_by: author
 status: active
 ---
 

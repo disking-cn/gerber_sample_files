@@ -109,12 +109,6 @@ You can download files in the following ways:
    git clone https://gitee.com/disking-cn/gerber_sample_files
    ```
 
-   You could get the dataset from IEEE DataPort(https://dx.doi.org/10.21227/v40v-jd61)
-   
-   ```
-   https://ieee-dataport.org/documents/gerber-sample-files-dataset-64-pcb-gerber-rs-274x-files
-   ```
-
 3. **Download ZIP package**: Click the "Code" button on the GitHub page and select "Download ZIP"
 
 ## Contribution

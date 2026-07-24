@@ -1,0 +1,17 @@
+{
+  "input": "board.gbr",
+  "output": "board.dif",
+  "input-dir": "../gerbers/",
+  "output-dir": "../results/",
+  "mode": "batch",
+  "output-format": 1,
+  "output-version": 30,
+  "storage-unit": 3,
+  "convert-mode": 0,
+  "accuracy": 1000.0,
+  "scale-x": 1.0,
+  "scale-y": 1.0,
+  "precision-scale": 10000,
+  "rotate-flip": 0,
+  "verbose": false
+}

@@ -42,3 +42,8 @@ gerbers/
 *.rar
 *.zip
 *.png
+*.dif
+result*/
+!bin/*.*
+*.pdb
+!03.sync-no-git.bat

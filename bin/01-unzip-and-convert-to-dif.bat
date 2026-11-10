@@ -3,7 +3,7 @@ cd /d "%~dp0"
 
 if not exist "..\files\*.zip" (
     echo Error: ..\files has no zip files.
-    echo Download from: https://gitee.com/disking-cn/gerber_sample_files.git or https://github.com/disking-cn/gerber_sample_files.git
+    echo Download from: https://github.com/disking-cn/gerber_sample_files.git
     pause
     exit /b 1
 )

@@ -6,8 +6,7 @@
 本次提交**仅包含** `files/` 目录下的 64 个 ZIP 压缩包（每个内含一份 Gerber RS-274X 源文件 `*.gbr`）；`geoms/`、`gerbers/`、`images/` 均为衍生生成物，**不随数据集提供**。
 
 公开镜像（便于下载与更新，优先于 DataPort 使用）：
-- GitHub: https://github.com/disking-cn/gerber-sample-files
-- Gitee: https://gitee.com/disking-cn/gerber_sample_files
+- GitHub: https://github.com/disking-cn/gerber_sample_files
 
 ---
 
@@ -24,7 +23,7 @@
 > Zhijia Hu — zhijiahu@ahu.edu.cn
 
 **4. Abstract**（英文，< 2000 字符）
-> This dataset provides 64 compressed PCB (printed circuit board) Gerber files for technical demonstration, algorithm development, and educational research. Each archive contains a single Gerber file in the RS-274X format (`.gbr`), following the RS-274X specification with aperture macros (AMA) and metric units. The files cover a variety of pad, trace, and macro shapes representative of realistic PCB layouts. All files are generic, synthetically generated test data and contain no customer proprietary information, real product designs, or commercial content. The dataset is suitable for evaluating Gerber parsers, EDA/PCB design tools, geometry extraction algorithms, and computer-vision or machine-learning methods for PCB inspection and recognition. It also supports reproducible experiments on lossless compression and real-time data-path processing for maskless lithography workflows (e.g., the companion RLE4K study). Total size is approximately 705 MB. The files are released under the MIT License for non-commercial research and educational use only. Canonical mirrors: https://github.com/disking-cn/gerber-sample-files and https://gitee.com/disking-cn/gerber_sample_files.
+> This dataset provides 64 compressed PCB (printed circuit board) Gerber files for technical demonstration, algorithm development, and educational research. Each archive contains a single Gerber file in the RS-274X format (`.gbr`), following the RS-274X specification with aperture macros (AMA) and metric units. The files cover a variety of pad, trace, and macro shapes representative of realistic PCB layouts. All files are generic, synthetically generated test data and contain no customer proprietary information, real product designs, or commercial content. The dataset is suitable for evaluating Gerber parsers, EDA/PCB design tools, geometry extraction algorithms, and computer-vision or machine-learning methods for PCB inspection and recognition. It also supports reproducible experiments on lossless compression and real-time data-path processing for maskless lithography workflows (e.g., the companion RLE4K study). Total size is approximately 705 MB. The files are released under the MIT License for non-commercial research and educational use only. Canonical repository: https://github.com/disking-cn/gerber_sample_files.
 
 **5. Keywords**（≤ 8，逗号分隔）
 > Gerber, RS-274X, PCB, printed circuit board, EDA, dataset, computer-aided design, design for manufacturing
@@ -49,9 +48,8 @@
 > (备选/二级：Computer Science → Computer-Aided Engineering)
 
 **10. Instructions**（如何使用 / 获取后处理工具）
-> The dataset contains only the compressed Gerber source files. To use them, download the ZIP archives from this record (or from the GitHub/Gitee mirrors below) and extract the enclosed `*.gbr` files — no installation or configuration is required. For downstream post-processing (e.g., generating intermediate geometry descriptions or rendered preview images), obtain the post-processing tools and any updated sample packages from the project's source repositories:
-> - GitHub: https://github.com/disking-cn/gerber-sample-files
-> - Gitee: https://gitee.com/disking-cn/gerber_sample_files
+> The dataset contains only the compressed Gerber source files. To use them, download the ZIP archives from this record (or from the GitHub mirror below) and extract the enclosed `*.gbr` files — no installation or configuration is required. For downstream post-processing (e.g., generating intermediate geometry descriptions or rendered preview images), obtain the post-processing tools and any updated sample packages from the project's source repositories:
+> - GitHub: https://github.com/disking-cn/gerber_sample_files
 
 ---
 
@@ -95,8 +93,7 @@ demonstration, algorithm development, and educational research.
   files; they can be opened directly by any RS-274X-compatible viewer
   or EDA tool.
 - Preferred mirrors for updates and tooling:
-  - GitHub: https://github.com/disking-cn/gerber-sample-files
-  - Gitee: https://gitee.com/disking-cn/gerber_sample_files
+  - GitHub: https://github.com/disking-cn/gerber_sample_files
 
 ## License
 Released under the MIT License, subject to the above usage restrictions.
@@ -108,4 +105,4 @@ Released under the MIT License, subject to the above usage restrictions.
 1. 从 `D:\Projects\gitee\ldi\gerber_sample_files\files\` 取全部 64 个 ZIP（`DIF01.zip`–`DIF64.zip`）作为上传内容；可将该目录再压成一个顶层 ZIP，或直接上传 64 个文件。
 2. 将上方 **B** 节的 `README.md` 放入上传包根目录。
 3. 在 IEEE DataPort 提交页面逐项粘贴 **A** 节字段，上传数据集包。
-4. 提交后 IEEE DataPort 会自动分配 DOI；论文与日常复现请优先引用/使用 GitHub 与 Gitee 镜像。
+4. 提交后 IEEE DataPort 会自动分配 DOI；论文与日常复现请优先引用/使用 GitHub 镜像（Gitee 已于 2026-11 退役）。

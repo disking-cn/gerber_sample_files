@@ -102,11 +102,7 @@ You can download files in the following ways:
 1. **Download individual files**: Click the links in the table above to download specific files
 2. **Download the entire repository**: Use Git to clone this repository
    ```bash
-   git clone https://github.com/disking-cn/gerber-sample-files  
-   ```
-
-   ```bash
-   git clone https://gitee.com/disking-cn/gerber_sample_files
+   git clone https://github.com/disking-cn/gerber_sample_files.git
    ```
 
 3. **Download ZIP package**: Click the "Code" button on the GitHub page and select "Download ZIP"

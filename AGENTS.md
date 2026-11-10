@@ -7,12 +7,12 @@ Gitee 已全线退役（2026-11-10 用户裁定，gitee remote 已删）；本�
 
 ## 1. 受控面（git / github 单远端管辖）
 
-成员：`bin/`、`files/`、`dataport/`、`images/`、`LICENSE`、`README.md`、`cover.png`、`.gitignore`、本文件。
+成员：`bin/`、`files/`、`images/`、`LICENSE`、`README.md`、`cover.png`、`.gitignore`、本文件。
 
 - 权威源 = git（github）；内容变更一律本地 `main` 提交后推送 github。公网推送受外推铁闸约束：本仓的推送授权 = 用户 2026-11-10 明令（github only）。
 - `files/` 只收 `*.zip`（64 件，命名 `DIFnn.zip`）；`images/` 只收对应预览 `DIFnn.gbr.png`；`bin/` 收工具与脚本（gbrcli/redcli/redtt/7z + bat + help/json）。
 - 大文件红线：GitHub 单文件 100 MB 软上限，新增 zip 超限一律先议，不得硬塞。
-- `dataport/`（IEEE DataPort 投稿文稿）属受控文档面（2026-11-10 拍板，自本版本起解除 ignore 入库）。
+- IEEE DataPort 投稿文稿**不在仓内**（2026-11-10 二次裁定移出）：归 `D:/Projects/dataports/gerber-sample-files/` 域，该域 README 记录对外提供内容；实体 zip 仍由本仓 `files/` 管辖，dataports 侧仅 junction 指针。
 
 ## 2. 生成面（临时件，SSD，可再生禁受控）
 

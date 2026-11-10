@@ -2,7 +2,7 @@
 
 本仓是 LDI 用 64 套公开 GERBER 样例语料（DIF01–DIF64）的唯一发布仓，唯一远端：
 `origin = https://github.com/disking-cn/gerber_sample_files.git`。
-Gitee 已全线退役（2026-11-10 用户裁定，gitee remote 已删）；本地路径 `D:/Projects/gitee/...` 仅为历史目录名，不代表 gitee 归属。
+Gitee 已全线退役（2026-11-10 用户裁定，gitee remote 已删）。本仓现址（权威目录，四次裁定）：`D:/Projects/dataports/gerber_sample_files`；旧路径 `D:/Projects/gitee/ldi/gerber_sample_files` 为兼容 junction（钉死旧绝对路径的消费者如 redtt.json 不受影响），任何新写入一律走现址。
 治理面分三部分，任何目录归类以本文件为准（v2，2026-11-10 用户拍板）。
 
 ## 1. 受控面（git / github 单远端管辖）
@@ -12,7 +12,7 @@ Gitee 已全线退役（2026-11-10 用户裁定，gitee remote 已删）；本�
 - 权威源 = git（github）；内容变更一律本地 `main` 提交后推送 github。公网推送受外推铁闸约束：本仓的推送授权 = 用户 2026-11-10 明令（github only）。
 - `files/` 只收 `*.zip`（64 件，命名 `DIFnn.zip`）；`images/` 只收对应预览 `DIFnn.gbr.png`；`bin/` 收工具与脚本（gbrcli/redcli/redtt/7z + bat + help/json）。
 - 大文件红线：GitHub 单文件 100 MB 软上限，新增 zip 超限一律先议，不得硬塞。
-- IEEE DataPort 投稿文稿**不在仓内**（2026-11-10 二次裁定移出）：归 `D:/Projects/dataports/gerber-sample-files/` 域，该域 README 记录对外提供内容；实体 zip 仍由本仓 `files/` 管辖，dataports 侧仅 junction 指针。
+- IEEE DataPort 投稿文稿**不在仓内**（2026-11-10 二次裁定移出）：归 `D:/Projects/dataports/submissions/gerber-sample-files/` 域，该域 README 记录对外提供内容；实体 zip 仍由本仓 `files/` 管辖，dataports 侧仅 junction 指针。
 
 ## 2. 生成面（临时件，SSD，可再生禁受控）
 

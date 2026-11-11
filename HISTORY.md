@@ -4,6 +4,7 @@
 - 已知错位件：`geoms/encoder-rle4k-cpu/`（约 1 MB，C1 编码器产物混入生成目录），待迁出至其论文线，不随生成面清理陪葬。
 - 2026-07-24 双远端最后一次同步基线（`524e2ad`）；治理立规前 main 曾领先双远端 1 提交。
 - 2026-11-10 AGENTS.md v2（用户裁定）：① **gitee 全线退役**——删除 gitee remote，唯一远端 github，"双推"规程废止；② 金库面由 COPY 归档改为**指针登记**：不拷贝，馆内只放 junction（→仓内 `files/`）+ README 指向件 + MANIFEST.sha256，登记入口 `kb_data.py link-register`；③ 勘误：v1 所记错位件 `geoms/encoder-rle4k-cpu` "约 1 MB，C1 编码器产物"**描述有误**——实测为 2,426 B 的 Everything 目录列表页 HTML 存盘残渣（内容含 `d:\Projects\papers\ws-encoder-rle4k-cpu` 列举行，2026-08-07 误存），非数据件，随 v2 清理删除。
+- 2026-11-11 八次裁定：geoms 分层——64 件直转件落 `geoms/samples/m0/`；OPC3 合并金标自金库批 20261028-dif-merge-dataset-v041 **复制**（非挪，金库禁改写）64 件至 `geoms/samples/m1/`，sha256 对照 manifest 全量 0 失配；m0/m1/samples 三级 README 落位；消费 junction：datasets/inputs→m1、geoms-dataports→m0；bat/redtt.json 输出钉 m0。
 - 2026-11-10 七次裁定：**生成面上移一级**——`gerbers/`(64, 3.6GB)、`geoms/`(64, 17GB) 自仓内 rename 至 dataports 域根，仓从此纯发布面（bin/files/images/文档）；01/02 bat 改 `..\..\` 直出 geoms（废止 results 中转错位口径），redtt.json 钉 `D:/Projects/dataports/geoms`；仓内不留 junction。
 - 2026-11-10 六次裁定（分类纠正，用户）：`submissions/` 中间层撤销——**提交物直接住域根 `D:/Projects/dataports/gerber-sample-files/`**（连字符名=提交物，下划线名 `gerber_sample_files/`=git 权威仓，两者平级）；域 README/提交物 README/仓 AGENTS 路径全联动，files junction 随迁仍穿透 64 件。
 - 2026-11-10 五次裁定：**旧路径不补 junction，重启后彻底删除**——开机计划任务 `gerber-husk-cleanup`（AtLogon）自动 rmdir 空壳并落日志 `D:/Projects/dataports/.husk-cleanup.log`；`bin/redtt.json` 的 fileName/folderPath 与 AGENTS 同步改钉现址。旧路径占坑元凶为终止死锁的 GCM 僵尸（PID 41672），仅注销/重启可清。

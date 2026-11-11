@@ -9,7 +9,7 @@ if not exist "..\files\*.zip" (
 )
 
 mkdir "..\..\gerbers" 2>nul
-mkdir "..\..\geoms" 2>nul
+mkdir "..\..\geoms\samples\m0" 2>nul
 
 echo Extracting zip files...
 for %%f in ("..\files\*.zip") do (
@@ -18,7 +18,7 @@ for %%f in ("..\files\*.zip") do (
 )
 
 echo Converting to DIF...
-gbrcli --mode batch --input-dir "..\..\gerbers" --output-dir "..\..\geoms"
+gbrcli --mode batch --input-dir "..\..\gerbers" --output-dir "..\..\geoms\samples\m0"
 
 echo Done. Outputs: ..\\..\\geoms\r
 pause

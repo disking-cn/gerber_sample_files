@@ -1,5 +1,5 @@
 ﻿{
-  "fileName": "D:/Projects/dataports/geoms/DIF01.dif",
+  "fileName": "D:/Projects/dataports/geoms/samples/m0/DIF01.dif",
   "rasterThreadCount": 8,
   "runtimeThreadCount": 4,
   "loadThreadCount": 2,
@@ -41,7 +41,7 @@
   "outputPath": "D:/redtt/results/lz4-tests",
   "decodedPath": "",
   "source": 0,
-  "folderPath": "D:/Projects/dataports/geoms",
+  "folderPath": "D:/Projects/dataports/geoms/samples/m0",
   "logFilePath": "",
   "csvFilePath": "",
   "computer": "PC02",

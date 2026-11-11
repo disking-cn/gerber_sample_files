@@ -7,10 +7,10 @@ if not exist "..\..\gerbers\*.gbr" (
     exit /b 1
 )
 
-mkdir "..\..\geoms" 2>nul
+mkdir "..\..\geoms\samples\m0" 2>nul
 
 echo Converting to DIF...
-gbrcli --mode batch --input-dir "..\..\gerbers" --output-dir "..\..\geoms"
+gbrcli --mode batch --input-dir "..\..\gerbers" --output-dir "..\..\geoms\samples\m0"
 
 echo Done. Outputs: ..\\..\\geoms
 pause

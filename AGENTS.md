@@ -2,7 +2,7 @@
 
 本仓是 LDI 用 64 套公开 GERBER 样例语料（DIF01–DIF64）的唯一发布仓，唯一远端：
 `origin = https://github.com/disking-cn/gerber_sample_files.git`。
-Gitee 已全线退役（2026-11-10 用户裁定，gitee remote 已删）。本仓现址（权威目录，四次裁定）：`D:/Projects/dataports/gerber_sample_files`；旧路径 `D:/Projects/gitee/ldi/gerber_sample_files` 为兼容 junction（钉死旧绝对路径的消费者如 redtt.json 不受影响），任何新写入一律走现址。
+Gitee 已全线退役（2026-11-10 用户裁定，gitee remote 已删）。本仓现址（权威目录，四次裁定）：`D:/Projects/dataports/gerber_sample_files`；旧路径 `D:/Projects/gitee/ldi/gerber_sample_files` 已废弃：残留空壳由开机计划任务 `gerber-husk-cleanup` 于下次重启后**彻底删除**，不留 junction（用户裁定）；原钉旧路径的配置（`bin/redtt.json` 等）已同步改至现址，消费者一律使用 `D:/Projects/dataports/gerber_sample_files`。
 治理面分三部分，任何目录归类以本文件为准（v2，2026-11-10 用户拍板）。
 
 ## 1. 受控面（git / github 单远端管辖）

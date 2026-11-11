@@ -8,17 +8,17 @@ if not exist "..\files\*.zip" (
     exit /b 1
 )
 
-mkdir "..\gerbers" 2>nul
-mkdir "..\results" 2>nul
+mkdir "..\..\gerbers" 2>nul
+mkdir "..\..\geoms" 2>nul
 
 echo Extracting zip files...
 for %%f in ("..\files\*.zip") do (
     echo   %%~nxf
-    7z x "%%f" -o"..\gerbers\" -aos -y >nul
+    7z x "%%f" -o"..\..\gerbers\" -aos -y >nul
 )
 
 echo Converting to DIF...
-gbrcli --mode batch --input-dir "..\gerbers" --output-dir "..\results"
+gbrcli --mode batch --input-dir "..\..\gerbers" --output-dir "..\..\geoms"
 
-echo Done.
+echo Done. Outputs: ..\\..\\geoms\r
 pause

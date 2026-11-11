@@ -16,12 +16,11 @@ Gitee 已全线退役（2026-11-10 用户裁定，gitee remote 已删）。本�
 
 ## 2. 生成面（临时件，SSD，可再生禁受控）
 
-成员：`gerbers/`（`files/*.zip` 经 7z 解出的 `*.gbr`，约 3.6 GB）与 `geoms/`（`gerbers/*.gbr` 经 `bin/gbrcli --mode batch` 生成的 `*.dif`，64 件，约 17 GB）。
+成员（**住仓上一级 dataports 域根，七次裁定 2026-11-10**）：`D:/Projects/dataports/gerbers/`（`files/*.zip` 经 7z 解出的 `*.gbr`，约 3.6 GB）与 `D:/Projects/dataports/geoms/`（经 `bin/gbrcli --mode batch` 生成的 `*.dif`，64 件，约 17 GB）。仓内不留生成物，连 junction 都不留。
 
-- 性质：**算法入口的生成物，不是数据资产**。随时可整目录删除后再生；再生链：
-  `bin/01-unzip-and-convert-to-dif.bat`（7z 解包 → gbrcli 批量转换；注意脚本输出目录为 `results/`，`geoms/` 为实际使用的成品目录，转换后按现行惯例归位）。
+- 性质：**算法入口的生成物，不是数据资产**。随时可整目录删除后再生；再生链：`bin/01-unzip-and-convert-to-dif.bat`（7z 解包 → gbrcli 批量转换，直出 `..\..\geoms`，无中转目录——results 旧错位口径自七次裁定废止）。
 - 放置：必须位于 SSD（消费方是 redcli/redtt 等算法的效率敏感入口）。本机 D 盘即 SATA SSD（GLOWAY 4 TB），**现址已满足**；如需更高吞吐可迁 NVMe（F 盘）并在仓内原址留目录 junction 保持入口路径不变，迁移属可逆动作，AGENTS 不需改。
-- 红线：`gerbers/`、`geoms/`、`results/` 永不入 git（ignore 已设）；语料性/论文性产物**禁存 `geoms/` 内**。历史上误入的 `geoms/encoder-rle4k-cpu`（2,426 B，Everything 目录列表页 HTML 残渣，2026-08-07 误存，非数据件）已于 2026-11-10 删除，详见 HISTORY 勘误。
+- 红线：生成物永不入 git（现居仓外天然满足；`.gitignore` 的 `geoms/`、`gerbers/` 条目留作双保险）；语料性/论文性产物**禁存 `geoms/` 内**。历史上误入的 `geoms/encoder-rle4k-cpu`（2,426 B，Everything 目录列表页 HTML 残渣，2026-08-07 误存，非数据件）已于 2026-11-10 删除，详见 HISTORY 勘误。
 
 ## 3. 金库面（kb-vault 登记，指针不落字节）
 
